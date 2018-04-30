@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * Given a list of seats already taken, and a number of rows, calculate the number of 3 person families that can be still accomocdated in a theater with the
- * configuration ABC | DEFG | HJK.  A group may not cross and aisle and must be in contiguous seats in a row.
+ * Given a list of seats already taken and a number of rows, calculate the number of 3 person families that can be still accommodated in a theater with the
+ * configuration ABC | DEFG | HJK.  A group may not cross an aisle and must be in contiguous seats in a row.
  *
  * The below is a solution to this problem using Java Streams.
  *
